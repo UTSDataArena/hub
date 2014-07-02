@@ -3,8 +3,8 @@ function(process_omegalib_modules)
 
 #--------------------------------------------------------------------------------
 # Third party support modules
-module_def(omegaOsg https://github.com/omega-hub/omegaOsg.git
-  "An OpenSceneGraph and Bullet Physics integration library for omegalib")
+module_def(omegaOsg /mnt/da/repo/projects/daOmegalib/daOmegaOsg
+  "(data arena version) An OpenSceneGraph and Bullet Physics integration library for omegalib")
 
 module_def(omegaOsgEarth https://github.com/omega-hub/omegaOsgEarth.git
   "An OpenSceneGraph module for terrain rendering")
@@ -23,8 +23,8 @@ module_def(scsound https://github.com/omega-hub/scsound.git
 
 #--------------------------------------------------------------------------------
 # Cyclops and libraries
-module_def(cyclops https://github.com/omega-hub/cyclops.git
-  "Cyclops is a utility library that sits on top of omegalib and OpenSceneGraph. It is designed to speed-up development of simple graphical applications, without having to deal with the low-level details of osg")
+module_def(cyclops /mnt/da/repo/projects/daOmegalib/daCyclops
+  "(data arena version) Cyclops is a utility library that sits on top of omegalib and OpenSceneGraph. It is designed to speed-up development of simple graphical applications, without having to deal with the low-level details of osg")
 
 module_def(pointCloud https://github.com/omega-hub/pointCloud.git
   "This module contains classes used to load and handle point cloud data")
