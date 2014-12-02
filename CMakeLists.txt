@@ -97,9 +97,15 @@ module_def(ISS https://github.com/omega-hub/ISS
 module_def(railSim https://github.com/uic-evl/railSim
   "rail deformation visualization")
 
+#-------------------------------------------------------------------------------
+# Data Arena tools
 # ImageSyncLoader module in python
 module_def(daAsyncImageLoader /da/repo/projects/daOmegalib/daAsyncImageLoader
   "(data arena) an async image loader python module")
+
+# Volume loader
+module_def(daVolume /da/repo/projects/daOmegalib/daVolume
+  "(data arena) a module to load and manipulate volumes in omegalib")
 
 #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< MODULE DEFINITION END
 endfunction()
