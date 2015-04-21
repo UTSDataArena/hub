@@ -107,6 +107,10 @@ module_def(daAsyncImageLoader /da/repo/projects/daOmegalib/daAsyncImageLoader
 module_def(daVolume /da/repo/projects/daOmegalib/daVolume
   "(data arena) a module to load and manipulate volumes in omegalib")
 
+# Houdini Engine
+module_def(daHoudiniEngine /da/repo/projects/daOmegalib/daHoudiniEngine
+  "(data arena) houdini engine interoperability with omegalib/osg!")
+
 #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< MODULE DEFINITION END
 endfunction()
 process_omegalib_modules()
