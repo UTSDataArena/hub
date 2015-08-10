@@ -12,14 +12,23 @@ module_def(omegaOsgEarth https://github.com/omega-hub/omegaOsgEarth.git
 module_def(omegaVtk https://github.com/omega-hub/omegaVtk.git
   "VTK support for omegalib")
   
+module_def(omegaThreejs https://github.com/omega-hub/omegaThreejs.git
+  "Three.js support for omegalib")
+  
 module_def(rift https://github.com/omega-hub/rift.git
-  "This module adds Oculus Rift support to omegalib, reading sensor data from the device and rendering using a post-processing shader that corrects for the Oculs Rift lens distortion and chromatic aberration")
+  "DEPRECATED - use the oculus module")
+
+module_def(oculus https://github.com/omega-hub/oculus.git
+  "Oculus Rift support for omegalib")
   
 module_def(sage https://github.com/omega-hub/sage.git
   "SAGE support for omegalib")
 
 module_def(scsound https://github.com/omega-hub/scsound.git
   "A preconfigured SuperCollider desktop sound server for omegalib")
+
+module_def(s2plot https://github.com/ajhub1/s2plot.git
+  "The s2plot Library for Omegalib")
 
 #--------------------------------------------------------------------------------
 # Cyclops and libraries
@@ -58,6 +67,9 @@ module_def(sceneTools https://github.com/omega-hub/sceneTools.git
 
 #--------------------------------------------------------------------------------
 # Misc modules
+module_def(llenc https://github.com/omega-hub/llenc.git 
+  "Low-latency encoder using the NVIDIA GRID SDK")
+  
 module_def(mvi https://github.com/omega-hub/mvi.git 
   "A module with utility functions for multiview immersion support")
 
@@ -70,8 +82,11 @@ module_def(flipbookPlayer https://github.com/omega-hub/flipbookPlayer.git
 module_def(templateModule https://github.com/omega-hub/templateModule.git 
   "An example C++ module for omegalib")  
 
-module_def(vr-bundle https://github.com/omega-hub/vr-bundle.git 
-  "A set of useful modules for Virtual Reality application development")  
+module_def(common-modules https://github.com/omega-hub/common-modules.git 
+  "A set of modules often installed with omegalib")  
+
+module_def(official https://github.com/omega-hub/official.git 
+  "Official modules included in omegalib release distributions")  
 
 module_def(evl https://github.com/omega-hub/evl.git 
   "Configuration files for systems in the Electronic Visualization Lab (like CAVE2  and OmegaDesk)")  
@@ -81,6 +96,9 @@ module_def(webView https://github.com/omega-hub/webView.git
 
 module_def(buildbot https://github.com/omega-hub/buildbot-autobuild-modules.git
   "(INTERNAL) bundle module with for buildbot automatic builds")
+
+module_def(volrend https://github.com/omega-hub/volrend.git
+  "Shader-based Volume Rendering module by NUVis")
 
 #--------------------------------------------------------------------------------
 # Tools and applications
@@ -97,6 +115,8 @@ module_def(ISS https://github.com/omega-hub/ISS
 module_def(railSim https://github.com/uic-evl/railSim
   "rail deformation visualization")
 
+module_def(icecloud https://github.com/omega-hub/icecloud
+  "sonar data visualization for under-ice AUVs")
 #-------------------------------------------------------------------------------
 # Data Arena tools
 # ImageSyncLoader module in python
@@ -106,11 +126,9 @@ module_def(daAsyncImageLoader /da/repo/projects/daOmegalib/daAsyncImageLoader
 # Volume loader
 module_def(daVolume /da/repo/projects/daOmegalib/daVolume
   "(data arena) a module to load and manipulate volumes in omegalib")
-
 # Houdini Engine
 module_def(daHoudiniEngine /da/repo/projects/daOmegalib/daHoudiniEngine
   "(data arena) houdini engine interoperability with omegalib/osg!")
 
 #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< MODULE DEFINITION END
 endfunction()
-process_omegalib_modules()
