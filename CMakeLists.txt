@@ -3,7 +3,7 @@ function(process_omegalib_modules)
 
 #--------------------------------------------------------------------------------
 # Third party support modules
-module_def(omegaOsg /da/repo/projects/daOmegalib/daOmegaOsg
+module_def(omegaOsg git@codeine.research.uts.edu.au:da/omegaOsg.git
   "(data arena version) An OpenSceneGraph and Bullet Physics integration library for omegalib")
 
 module_def(omegaOsgEarth https://github.com/omega-hub/omegaOsgEarth.git
@@ -32,7 +32,7 @@ module_def(s2plot https://github.com/ajhub1/s2plot.git
 
 #--------------------------------------------------------------------------------
 # Cyclops and libraries
-module_def(cyclops /da/repo/projects/daOmegalib/daCyclops
+module_def(cyclops git@codeine.research.uts.edu.au:da/cyclops.git
   "(data arena version) Cyclops is a utility library that sits on top of omegalib and OpenSceneGraph. It is designed to speed-up development of simple graphical applications, without having to deal with the low-level details of osg")
 
 module_def(pointCloud https://github.com/omega-hub/pointCloud.git
@@ -127,7 +127,7 @@ module_def(daAsyncImageLoader /da/repo/projects/daOmegalib/daAsyncImageLoader
 module_def(daVolume /da/repo/projects/daOmegalib/daVolume
   "(data arena) a module to load and manipulate volumes in omegalib")
 # Houdini Engine
-module_def(daHoudiniEngine /da/repo/projects/daOmegalib/daHoudiniEngine
+module_def(daHoudiniEngine git@codeine.research.uts.edu.au:da/daHoudiniEngine.git
   "(data arena) houdini engine interoperability with omegalib/osg!")
 
 #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< MODULE DEFINITION END
