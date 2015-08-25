@@ -120,7 +120,7 @@ module_def(icecloud https://github.com/omega-hub/icecloud
 #-------------------------------------------------------------------------------
 # Data Arena tools
 # ImageSyncLoader module in python
-module_def(daAsyncImageLoader /da/repo/projects/daOmegalib/daAsyncImageLoader
+module_def(daAsyncImageLoader git@codeine.research.uts.edu.au:da/daAsyncImageLoader.git
   "(data arena) an async image loader python module")
 
 # Volume loader
