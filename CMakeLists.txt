@@ -35,8 +35,8 @@ module_def(s2plot https://github.com/ajhub1/s2plot.git
 module_def(cyclops git@codeine.research.uts.edu.au:da/cyclops.git
   "(data arena version) Cyclops is a utility library that sits on top of omegalib and OpenSceneGraph. It is designed to speed-up development of simple graphical applications, without having to deal with the low-level details of osg")
 
-module_def(pointCloud https://github.com/omega-hub/pointCloud.git
-  "This module contains classes used to load and handle point cloud data")
+module_def(pointCloud git@codeine.research.uts.edu.au:da/pointCloud.git
+  "(data arena version) This module contains classes used to load and handle point cloud data")
 
 module_def(polytri https://github.com/omega-hub/polytri.git
  "Takes a boundary / polygon (in 2D) and creates a surface made out of triangles")
