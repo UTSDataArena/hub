@@ -3,10 +3,10 @@ function(process_omegalib_modules)
 
 #--------------------------------------------------------------------------------
 # Third party support modules
-module_def(omegaOsg git@codeine.research.uts.edu.au:da/omegaOsg.git
+module_def(omegaOsg https://github.com/UTSDataArena/omegaOsg.git
   "(data arena version) An OpenSceneGraph and Bullet Physics integration library for omegalib")
 
-module_def(omegaOsgEarth https://github.com/omega-hub/omegaOsgEarth.git
+module_def(omegaOsgEarth https://github.com/UTSDataArena/omegaOsgEarth.git
   "An OpenSceneGraph module for terrain rendering")
 
 module_def(omegaVtk https://github.com/omega-hub/omegaVtk.git
@@ -32,10 +32,10 @@ module_def(s2plot https://github.com/ajhub1/s2plot.git
 
 #--------------------------------------------------------------------------------
 # Cyclops and libraries
-module_def(cyclops git@codeine.research.uts.edu.au:da/cyclops.git
+module_def(cyclops https://github.com/UTSDataArena/cyclops.git
   "(data arena version) Cyclops is a utility library that sits on top of omegalib and OpenSceneGraph. It is designed to speed-up development of simple graphical applications, without having to deal with the low-level details of osg")
 
-module_def(pointCloud git@codeine.research.uts.edu.au:da/pointCloud.git
+module_def(pointCloud https://github.com/UTSDataArena/pointCloud
   "(data arena version) This module contains classes used to load and handle point cloud data")
 
 module_def(polytri https://github.com/omega-hub/polytri.git
