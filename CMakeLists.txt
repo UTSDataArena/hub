@@ -91,7 +91,7 @@ module_def(official https://github.com/omega-hub/official.git
 module_def(evl https://github.com/omega-hub/evl.git 
   "Configuration files for systems in the Electronic Visualization Lab (like CAVE2  and OmegaDesk)")  
 
-module_def(webView https://github.com/omega-hub/webView.git
+module_def(webView https://github.com/UTSDataArena/webView.git
   "HTML5 support for omegalib")
 
 module_def(buildbot https://github.com/omega-hub/buildbot-autobuild-modules.git
