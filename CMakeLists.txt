@@ -127,8 +127,11 @@ module_def(daAsyncImageLoader git@codeine.research.uts.edu.au:da/daAsyncImageLoa
 module_def(daVolume /da/repo/projects/daOmegalib/daVolume
   "(data arena) a module to load and manipulate volumes in omegalib")
 # Houdini Engine
-module_def(daHoudiniEngine git@codeine.research.uts.edu.au:da/daHoudiniEngine.git
+module_def(daHoudiniEngine https://github.com/UTSDataArena/daHoudiniEngine.git
   "(data arena) houdini engine interoperability with omegalib/osg!")
+# Matlab module
+module_def(daMatlab https://codeine.research.uts.edu.au/da/daMatlab.git
+  "(data arena) Module to stream data from Matlab to Omegalib")
 
 #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< MODULE DEFINITION END
 endfunction()
