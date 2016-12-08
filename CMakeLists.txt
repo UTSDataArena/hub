@@ -130,8 +130,12 @@ module_def(daVolume /da/repo/projects/daOmegalib/daVolume
 module_def(daHoudiniEngine https://github.com/UTSDataArena/daHoudiniEngine.git
   "(data arena) houdini engine interoperability with omegalib/osg!")
 # Matlab module
-module_def(daMatlab https://codeine.research.uts.edu.au/da/daMatlab.git
+module_def(daMatlab https://github.com/UTSDataArena/daMatlab.git
   "(data arena) Module to stream data from Matlab to Omegalib")
+# Handles module
+module_def(daHandles https://github.com/UTSDataArena/daHandles.git
+  "(data arena) Module to add support for on-screen handles to Omegalib")
+
 
 #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< MODULE DEFINITION END
 endfunction()
