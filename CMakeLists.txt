@@ -132,6 +132,9 @@ module_def(daHoudiniEngine https://github.com/UTSDataArena/daHoudiniEngine.git
 # Matlab module
 module_def(daMatlab https://github.com/UTSDataArena/daMatlab.git
   "(data arena) Module to stream data from Matlab to Omegalib")
+# Input module
+module_def(daInput https://codeine.research.uts.edu.au/da/daInput.git
+  "(data arena) Module to manage input devices in Omegalib")
 # Handles module
 module_def(daHandles https://github.com/UTSDataArena/daHandles.git
   "(data arena) Module to add support for on-screen handles to Omegalib")
