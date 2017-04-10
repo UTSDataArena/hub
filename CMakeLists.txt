@@ -136,7 +136,7 @@ module_def(daMatlab https://github.com/UTSDataArena/daMatlab.git
 module_def(daInput https://codeine.research.uts.edu.au/da/daInput.git
   "(data arena) Module to manage input devices in Omegalib")
 # Handles module
-module_def(daHandles https://github.com/UTSDataArena/daHandles.git
+module_def(daHandles https://codeine.research.uts.edu.au/da/daHandles.git
   "(data arena) Module to add support for on-screen handles to Omegalib")
 
 
