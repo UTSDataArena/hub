@@ -3,10 +3,10 @@ function(process_omegalib_modules)
 
 #--------------------------------------------------------------------------------
 # Third party support modules
-module_def(omegaOsg git@codeine.research.uts.edu.au:da/omegaOsg.git
+module_def(omegaOsg https://github.com/UTSDataArena/omegaOsg.git
   "(data arena version) An OpenSceneGraph and Bullet Physics integration library for omegalib")
 
-module_def(omegaOsgEarth git@codeine.research.uts.edu.au:da/omegaOsgEarth.git
+module_def(omegaOsgEarth https://github.com/UTSDataArena/omegaOsgEarth.git
   "An OpenSceneGraph module for terrain rendering")
 
 module_def(omegaVtk https://github.com/omega-hub/omegaVtk.git
@@ -32,10 +32,10 @@ module_def(s2plot https://github.com/ajhub1/s2plot.git
 
 #--------------------------------------------------------------------------------
 # Cyclops and libraries
-module_def(cyclops git@codeine.research.uts.edu.au:da/cyclops.git
+module_def(cyclops https://github.com/UTSDataArena/cyclops.git
   "(data arena version) Cyclops is a utility library that sits on top of omegalib and OpenSceneGraph. It is designed to speed-up development of simple graphical applications, without having to deal with the low-level details of osg")
 
-module_def(pointCloud git@codeine.research.uts.edu.au:da/pointCloud
+module_def(pointCloud https://github.com/UTSDataArena/pointCloud
   "(data arena version) This module contains classes used to load and handle point cloud data")
 
 module_def(polytri https://github.com/omega-hub/polytri.git
@@ -91,7 +91,7 @@ module_def(official https://github.com/omega-hub/official.git
 module_def(evl https://github.com/omega-hub/evl.git 
   "Configuration files for systems in the Electronic Visualization Lab (like CAVE2  and OmegaDesk)")  
 
-module_def(webView git@codeine.research.uts.edu.au:da/webView.git
+module_def(webView https://github.com/UTSDataArena/webView.git
   "HTML5 support for omegalib")
 
 module_def(buildbot https://github.com/omega-hub/buildbot-autobuild-modules.git
@@ -127,16 +127,16 @@ module_def(daAsyncImageLoader git@codeine.research.uts.edu.au:da/daAsyncImageLoa
 module_def(daVolume /da/repo/projects/daOmegalib/daVolume
   "(data arena) a module to load and manipulate volumes in omegalib")
 # Houdini Engine
-module_def(daHoudiniEngine git@codeine.research.uts.edu.au:da/daHoudiniEngine.git
+module_def(daHoudiniEngine https://github.com/UTSDataArena/daHoudiniEngine.git
   "(data arena) houdini engine interoperability with omegalib/osg!")
 # Matlab module
-module_def(daMatlab git@codeine.research.uts.edu.au:da/daMatlab.git
+module_def(daMatlab https://github.com/UTSDataArena/daMatlab.git
   "(data arena) Module to stream data from Matlab to Omegalib")
 # Input module
-module_def(daInput git@codeine.research.uts.edu.au:da/daInput.git
+module_def(daInput https://github.com/UTSDataArena/daInput.git
   "(data arena) Module to add support for input devices to Omegalib")
 # Handles module
-module_def(daHandles git@codeine.research.uts.edu.au:da/daHandles.git
+module_def(daHandles https://github.com/UTSDataArena/daHandles.git
   "(data arena) Module to add support for on-screen handles to Omegalib")
 
 
