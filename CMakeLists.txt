@@ -138,6 +138,9 @@ module_def(daInput https://github.com/UTSDataArena/daInput.git
 # Handles module
 module_def(daHandles https://github.com/UTSDataArena/daHandles.git
   "(data arena) Module to add support for on-screen handles to Omegalib")
+# Audio module
+module_def(daAudio https://github.com/UTSDataArena/daAudio.git
+  "(data arena) Module to add support for OpenAL audio to Omegalib")
 
 
 #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< MODULE DEFINITION END
