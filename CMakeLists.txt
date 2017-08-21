@@ -3,7 +3,8 @@ function(process_omegalib_modules)
 
 #--------------------------------------------------------------------------------
 # Third party support modules
-module_def(omegaOsg https://github.com/UTSDataArena/omegaOsg.git
+#module_def(omegaOsg https://github.com/UTSDataArena/omegaOsg.git
+module_def(omegaOsg git@codeine.research.uts.edu.au:da/omegalib.git 
   "(data arena version) An OpenSceneGraph and Bullet Physics integration library for omegalib")
 
 module_def(omegaOsgEarth https://github.com/UTSDataArena/omegaOsgEarth.git
