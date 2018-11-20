@@ -120,11 +120,11 @@ module_def(icecloud https://github.com/omega-hub/icecloud
 #-------------------------------------------------------------------------------
 # Data Arena tools
 # ImageSyncLoader module in python
-module_def(daAsyncImageLoader git@codeine.research.uts.edu.au:da/daAsyncImageLoader.git
+module_def(daAsyncImageLoader git@code.research.uts.edu.au:da/pipelines/daAsyncImageLoader.git
   "(data arena) an async image loader python module")
 
 # Volume loader
-module_def(daVolume /da/repo/projects/daOmegalib/daVolume
+module_def(daVolume git@code.research.uts.edu.au:da/pipelines/daVolume.git
   "(data arena) a module to load and manipulate volumes in omegalib")
 # Houdini Engine
 module_def(daHoudiniEngine https://github.com/UTSDataArena/daHoudiniEngine.git
